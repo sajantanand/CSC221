@@ -1,0 +1,34 @@
+#include "tstack.h"
+template<typename T>
+TStack::TStack ( int size )
+{
+	array = new ( nothrow ) T [ ( int ) ( size * 1.4 ) ];
+	elements = 0;
+	maxSize = size * 1.4;
+}
+/*
+bool isEmpty () const
+{
+	( elements == 0 ) ? true : false;
+}
+*/
+template<typename T>
+void TStack::push ( T temp )
+{
+	if ( elements == maxSize )
+	{
+		T * tempArray = new ( nothrow ) T [ ( int ) ( maxSize * 1.4 ) ];
+		maxSize *= 1.4;
+		memcpy ( tempArray, array, elements * sizeof ( T );
+		delete [] array;
+		array = tempArray;
+		tempArray= 0;
+	}
+
+	array [ ++elements ] = temp;
+}
+template<typename T>
+T TStack::pop ()
+{
+	return array [ elements-- ];
+}

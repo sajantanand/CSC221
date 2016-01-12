@@ -1,0 +1,97 @@
+Quiz for Unix Tutorial 1
+1. d
+2. c
+3. a
+4. g
+5. d
+6. a
+7. c
+8. c
+9. b
+10. c
+11. ls ../people/friends
+12. d
+13. b
+
+Quiz for Unix Tutorial 2
+1. e
+2. f
+3. a
+4. b
+5. c
+6. g
+7. f
+8. f
+9. e
+10. tail -7 inventory
+11. grep -c tuna fish
+12. wc -l fowl
+13. rm ~/songs/Fish_Heads
+14. ls -a ../../videos/
+
+Quiz for Unix Tutorial 3
+1. c
+2. b
+3. cat inventory | grep Ford | a2ps -foo
+4. a
+5. b
+6. d
+7. b
+8. cat thursday friday saturday | sort | uniq > foods
+9. ls .. | lp -d foo
+10. grep fish stories | grep -c turtle
+11. who | grep joe
+12. ls > ~/my_friends
+
+Quiz for Unix Tutorial Three Extended
+1. d
+2. e
+3. a
+4. e
+5. b   
+6. b
+7. TAB
+
+Quiz for Unix Tutorial Four
+1. b
+2. d
+3. *
+4. ?
+5. ls *A*
+6. ls *[0-9]*
+7. b
+8. i
+9. whatis neato
+10. apropos plot
+11. cat [N-Z]*.txt > Files_N_to_Z.txt
+12. ls *[0-9]* | wc -l
+13. ls ???*
+14. grep "[Tt]elescope" science.txt
+
+Quiz for Unix Tutorial Five
+1. b
+2. b
+3. e
+4. c 
+5. d
+6. chmod go -rwx telescopes
+7. chmod g -w eastern_phoebe.jpg
+8. ps
+9. g
+10. &
+11. f
+12. bg %3
+13. fg %3
+14. kill %3
+15. kill -9 %3
+16. e
+17. c
+18. d
+
+Quiz for Unix Tutorial Six
+1. d
+2. b
+3. d
+4. d
+5. history
+6. !!
